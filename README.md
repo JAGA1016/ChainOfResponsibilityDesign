@@ -4,7 +4,7 @@
 
 **Chain Of Responsibility design pattern** is demonstrated in this project. The Chain Of Responsibility pattern is a behavioral design.According to the Gang of Four Definitions, the Chain of Responsibility Design Pattern states that Avoid coupling the sender of a request to its receiver by giving more than one receiver object a chance to handle the request. Chain the receiving objects and pass the request along until an object handles it.In simple words, we can say that the chain of responsibility design pattern creates a chain of receiver objects for a given request. In this design pattern, normally, each receiver contains a reference to another receiver. If one receiver cannot handle the request, it passes the same request to the next receiver, and so on. One receiver handles the request in the chain, or one or more receivers handle the request. 
 
-**Description of the UML Class Diagram ** 
+**Description of the UML Class Diagram** 
 - BanknoteDispenser is the abstract base class that defines the core structure for handling.
 - successor: BanknoteDispenser indicates a private field within BanknoteDispenser for holding the reference to the next handler in the chain.
 - SetSuccessor() is a public method in BanknoteDispenser for setting the successor handler.
