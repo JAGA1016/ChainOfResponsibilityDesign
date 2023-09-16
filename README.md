@@ -9,7 +9,7 @@
 - successor: BanknoteDispenser indicates a private field within BanknoteDispenser for holding the reference to the next handler in the chain.
 - SetSuccessor() is a public method in BanknoteDispenser for setting the successor handler.
 - Dispense() is a public method in BanknoteDispenser for dispensing banknotes.
-- The diagram shows three concrete classes (Thousand Dispenser, FiveHundredDispenser, HundredDispenser ,FiftyDispenser, TwentyDispenser, TenDispenser)that inherit from BanknoteDispenser.
+- The diagram shows  concrete classes (Thousand Dispenser, FiveHundredDispenser, HundredDispenser ,FiftyDispenser, TwentyDispenser, TenDispenser)that inherit from BanknoteDispenser.
 - Each concrete class implements the + Dispense() method, which handles requests based on its specific bill denomination.
 - The Client have the access to withdraw function from ATM class. The chain internally created when User/Client try to withdraw money.
 
