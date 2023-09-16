@@ -16,7 +16,7 @@
 # Design
 This project defines a linked list navigator. The navigator is initialized with some data. In real world scenarios, you may think of it as a linked list for say a file system. In this case, it is simply initialized with numbers. As the linked list is being navigated, any interested subscriber is notified when each node is visited; thus demonstrating the observer pattern.
 
-![Class diagram](ClassDiagram.jpeg)
+![Class diagram](ClassDiagram..jpeg)
 
 # Environment
 The project builds and runs with Visual Studio Community 2022 when the required workloads are installed.
